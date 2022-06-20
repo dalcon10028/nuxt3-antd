@@ -1,13 +1,13 @@
 <script lang="ts" setup></script>
 
 <template lang="pug">
-a-layout-sider App Aside
+a-layout.blank-layout
+  a-layout-content
+    slot
 </template>
 
 <style scoped lang="scss">
-.ant-layout-sider {
-  color: #fff;
-  line-height: 120px;
-  background: #3ba0e9;
+.black-layout {
+  min-height: 100vh;
 }
 </style>

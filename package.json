@@ -26,6 +26,8 @@
   },
   "dependencies": {
     "@ant-design/icons-vue": "^6.1.0",
-    "ant-design-vue": "^3.2.7"
+    "@pinia/nuxt": "^0.1.9",
+    "ant-design-vue": "^3.2.7",
+    "pinia": "^2.0.14"
   }
 }

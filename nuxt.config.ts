@@ -20,4 +20,5 @@ export default defineNuxtConfig({
       noExternal: ['moment', 'compute-scroll-into-view', 'ant-design-vue', '@ant-design/icons-vue'],
     },
   },
+  buildModules: ['@pinia/nuxt'],
 })

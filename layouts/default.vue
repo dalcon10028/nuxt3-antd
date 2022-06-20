@@ -3,7 +3,7 @@ import { Header, Footer, Aside } from './components'
 </script>
 
 <template lang="pug">
-a-layout
+a-layout.default-layout
   Aside
   a-layout
     Header
@@ -12,4 +12,8 @@ a-layout
     Footer
 </template>
 
-<style scoped></style>
+<style scoped lang="scss">
+.default-layout {
+  min-height: 100vh;
+}
+</style>
